@@ -5,7 +5,7 @@ public class AngieBird : MonoBehaviour
     [SerializeField] private AudioClip _hitClip;
 
     private Rigidbody2D _rb;
-    private CircleCollider2D _circleCollider;
+    private CapsuleCollider2D _circleCollider;
 
     private bool _hasBeenLaunched;
     private bool _shouldFaceVelDirection;
@@ -14,7 +14,7 @@ public class AngieBird : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
-        _circleCollider = GetComponent<CircleCollider2D>();   
+        _circleCollider = GetComponent<CapsuleCollider2D>();   
         _audioSource = GetComponent<AudioSource>();
     }
 
