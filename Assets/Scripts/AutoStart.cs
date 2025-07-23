@@ -16,7 +16,7 @@ public static class AutoStart
         {
             if (SceneManager.GetActiveScene().name == "MainMenu" && Input.anyKeyDown)
             {
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("LevelSelector");
             }
         }
     }

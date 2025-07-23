@@ -3,13 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuUI : MonoBehaviour
 {
-    [SerializeField] private string sceneToLoad = "SampleScene";
+    [SerializeField] private string sceneToLoad = "LevelSelector";
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.anyKeyDown)
         {
-            Debug.Log("A key pressed");
+            Debug.Log("Any key pressed");
             PlayGame();
         }
     }
