@@ -1407,6 +1407,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8841518212961058238, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
+      propertyPath: m_Mass
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6197078734354351928, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
       propertyPath: m_Name
       value: HollowSkinnyTallBLOCK (5)
@@ -1514,6 +1518,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8841518212961058238, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
+      propertyPath: m_Mass
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6197078734354351928, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
       propertyPath: m_Name
       value: HollowSkinnyTallBLOCK (1)
@@ -1634,6 +1642,10 @@ PrefabInstance:
     - target: {fileID: 5281016429559774474, guid: 83727f30f677f62409466db1c8a81cbe, type: 3}
       propertyPath: m_Name
       value: SolidThickBLOCK (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8155371429120210315, guid: 83727f30f677f62409466db1c8a81cbe, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1907,6 +1919,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8841518212961058238, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
+      propertyPath: m_Mass
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6197078734354351928, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
       propertyPath: m_Name
       value: HollowSkinnyTallBLOCK (4)
@@ -3629,6 +3645,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8841518212961058238, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
+      propertyPath: m_Mass
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6197078734354351928, guid: ea6973ab2ff732c48a0948db14afa39d, type: 3}
       propertyPath: m_Name
       value: HollowSkinnyTallBLOCK (2)
