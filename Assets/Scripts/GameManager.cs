@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int maxLevels = SceneManager.sceneCountInBuildSettings;
 
-        if (SceneManager.GetActiveScene().name == "Scene2")
+        if (SceneManager.GetActiveScene().name == "End")
         {
             _restartScreenObject.SetActive(false);
             _nextLevelImage.enabled = false;
@@ -150,7 +150,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator ReturnToLevel1()
     {
         yield return new WaitForSeconds(5f); 
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("End");
     }
 
 }

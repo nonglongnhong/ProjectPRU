@@ -9,6 +9,7 @@ public class MainMenuUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
+            Debug.Log("A key pressed");
             PlayGame();
         }
     }
