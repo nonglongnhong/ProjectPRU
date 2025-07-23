@@ -120,6 +120,7 @@ public class GameManager : MonoBehaviour
             _nextLevelImage.enabled = false;
             _congratulationText.SetActive(true);
             _winAudio.Play();
+            
             StartCoroutine(ReturnToLevel1());
         }
         else
